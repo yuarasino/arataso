@@ -11,3 +11,8 @@ RUN set -ex \
 
 
 WORKDIR /app
+
+COPY pyproject.toml poetry.lock ./
+
+RUN set -ex \
+  && poetry install
