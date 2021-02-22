@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  app:
+    hostname: app
+    build:
+      context: .
+      dockerfile: .devcontainer/Dockerfile
+    volumes:
+      - .:/app
+      - appdeps:/app/.venv:cached
+    working_dir: /app
+    tty: true
+
+volumes:
+  appdeps:
