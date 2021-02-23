@@ -1,0 +1,2 @@
+class TenhouClientError(Exception):
+    pass

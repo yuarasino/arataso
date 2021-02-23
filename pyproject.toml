@@ -6,6 +6,7 @@ authors = ["新篠ゆう <37145593+yuarasino@users.noreply.github.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+websocket_client = "^0.57.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.2"
