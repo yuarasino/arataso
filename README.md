@@ -1,0 +1,2 @@
+# arataso
+Mahjong AI "arataso"
